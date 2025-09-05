@@ -6,6 +6,6 @@ public class Main {
 		var notifier = new EmailNotifier();
 		// Estado inicial: vai lançar IllegalStateException (SMTP indisponível)
 		notifier.welcome(new User("Ana", "ana@example.com"));
-		System.out.println("Email enviado!a");
+		System.out.println("Email enviado!");
 	}
 }
